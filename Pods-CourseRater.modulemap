@@ -1,0 +1,6 @@
+framework module Pods_CourseRater {
+  umbrella header "Pods-CourseRater-umbrella.h"
+
+  export *
+  module * { export * }
+}
