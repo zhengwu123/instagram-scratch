@@ -9,7 +9,10 @@
 import UIKit
 
 class photoCell: UITableViewCell {
+    @IBOutlet var captionLabel: UILabel!
 
+    @IBOutlet var cellImage: UIImageView!
+    @IBOutlet var usernamelabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

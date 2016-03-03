@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "966FE49AF4845CBE0C88DEF6918000611E33D9DA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "374EB7B87EF6EFBBFE4DE4105EB42D7C09312AE8" : 0,
+    "EBD689AF75B16A44AF27B9ECD8E209F3FA7794EC" : 0,
+    "966FE49AF4845CBE0C88DEF6918000611E33D9DA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "864CF5F3-B821-4E93-B224-C3CB4AF3CDE4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "374EB7B87EF6EFBBFE4DE4105EB42D7C09312AE8" : "CourseRater\/Pods\/Target%20Support%20Files\/Pods-CourseRater\/",
+    "EBD689AF75B16A44AF27B9ECD8E209F3FA7794EC" : "CourseRater\/CourseRater.xcodeproj\/",
+    "966FE49AF4845CBE0C88DEF6918000611E33D9DA" : "CourseRater\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CourseRater",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CourseRater.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhengwu123\/instagram-scratch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "374EB7B87EF6EFBBFE4DE4105EB42D7C09312AE8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhengwu123\/instagram-scratch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "966FE49AF4845CBE0C88DEF6918000611E33D9DA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhengwu123\/instagram-scratch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EBD689AF75B16A44AF27B9ECD8E209F3FA7794EC"
+    }
+  ]
+}

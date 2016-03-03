@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38087F18B87129FB13574DB9 /* Pods_CourseRater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5CEA62F7D966E59B894F37 /* Pods_CourseRater.framework */; };
 		D566D6C11C7675C7008AA87D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D566D6C01C7675C7008AA87D /* AppDelegate.swift */; };
 		D566D6C31C7675C7008AA87D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D566D6C21C7675C7008AA87D /* ViewController.swift */; };
 		D566D6C61C7675C7008AA87D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D566D6C41C7675C7008AA87D /* Main.storyboard */; };
 		D566D6C81C7675C7008AA87D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D566D6C71C7675C7008AA87D /* Assets.xcassets */; };
 		D566D6CB1C7675C7008AA87D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D566D6C91C7675C7008AA87D /* LaunchScreen.storyboard */; };
+		D5C824C51C829EA3003F6797 /* AddphotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C824C41C829EA3003F6797 /* AddphotoViewController.swift */; };
+		D5C824C71C82AA65003F6797 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C824C61C82AA65003F6797 /* HomeViewController.swift */; };
+		D5C824C91C82AA8F003F6797 /* photoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C824C81C82AA8F003F6797 /* photoCell.swift */; };
+		D5C824CB1C82AAA7003F6797 /* ProfileViewCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C824CA1C82AAA7003F6797 /* ProfileViewCellViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C5CEA62F7D966E59B894F37 /* Pods_CourseRater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CourseRater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1032B941FD804B765693161 /* Pods-CourseRater.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseRater.release.xcconfig"; path = "Pods/Target Support Files/Pods-CourseRater/Pods-CourseRater.release.xcconfig"; sourceTree = "<group>"; };
 		D566D6BD1C7675C7008AA87D /* CourseRater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseRater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D566D6C01C7675C7008AA87D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D566D6C21C7675C7008AA87D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		D566D6C71C7675C7008AA87D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D566D6CA1C7675C7008AA87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D566D6CC1C7675C7008AA87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5C824C41C829EA3003F6797 /* AddphotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddphotoViewController.swift; sourceTree = "<group>"; };
+		D5C824C61C82AA65003F6797 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D5C824C81C82AA8F003F6797 /* photoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photoCell.swift; sourceTree = "<group>"; };
+		D5C824CA1C82AAA7003F6797 /* ProfileViewCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewCellViewController.swift; sourceTree = "<group>"; };
+		DEFDBEE71B4975FFF95E4042 /* Pods-CourseRater.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseRater.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CourseRater/Pods-CourseRater.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38087F18B87129FB13574DB9 /* Pods_CourseRater.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09D8406FFA0F3FE2AF5A16A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEFDBEE71B4975FFF95E4042 /* Pods-CourseRater.debug.xcconfig */,
+				D1032B941FD804B765693161 /* Pods-CourseRater.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0DEE9874856DB8B49B9AB65D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C5CEA62F7D966E59B894F37 /* Pods_CourseRater.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D566D6B41C7675C7008AA87D = {
 			isa = PBXGroup;
 			children = (
 				D566D6BF1C7675C7008AA87D /* CourseRater */,
 				D566D6BE1C7675C7008AA87D /* Products */,
+				09D8406FFA0F3FE2AF5A16A8 /* Pods */,
+				0DEE9874856DB8B49B9AB65D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +89,10 @@
 				D566D6C01C7675C7008AA87D /* AppDelegate.swift */,
 				D566D6C21C7675C7008AA87D /* ViewController.swift */,
 				D566D6C41C7675C7008AA87D /* Main.storyboard */,
+				D5C824C61C82AA65003F6797 /* HomeViewController.swift */,
+				D5C824C81C82AA8F003F6797 /* photoCell.swift */,
+				D5C824CA1C82AAA7003F6797 /* ProfileViewCellViewController.swift */,
+				D5C824C41C829EA3003F6797 /* AddphotoViewController.swift */,
 				D566D6C71C7675C7008AA87D /* Assets.xcassets */,
 				D566D6C91C7675C7008AA87D /* LaunchScreen.storyboard */,
 				D566D6CC1C7675C7008AA87D /* Info.plist */,
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D566D6CF1C7675C7008AA87D /* Build configuration list for PBXNativeTarget "CourseRater" */;
 			buildPhases = (
+				33B44246A306E90597D67981 /* Check Pods Manifest.lock */,
 				D566D6B91C7675C7008AA87D /* Sources */,
 				D566D6BA1C7675C7008AA87D /* Frameworks */,
 				D566D6BB1C7675C7008AA87D /* Resources */,
+				AB45284FE23B9FDD22B766E8 /* Embed Pods Frameworks */,
+				417F90610EC20149ED170A7D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +169,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33B44246A306E90597D67981 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		417F90610EC20149ED170A7D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CourseRater/Pods-CourseRater-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB45284FE23B9FDD22B766E8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CourseRater/Pods-CourseRater-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D566D6B91C7675C7008AA87D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C824C91C82AA8F003F6797 /* photoCell.swift in Sources */,
+				D5C824C51C829EA3003F6797 /* AddphotoViewController.swift in Sources */,
 				D566D6C31C7675C7008AA87D /* ViewController.swift in Sources */,
 				D566D6C11C7675C7008AA87D /* AppDelegate.swift in Sources */,
+				D5C824C71C82AA65003F6797 /* HomeViewController.swift in Sources */,
+				D5C824CB1C82AAA7003F6797 /* ProfileViewCellViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +336,7 @@
 		};
 		D566D6D01C7675C7008AA87D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEFDBEE71B4975FFF95E4042 /* Pods-CourseRater.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CourseRater/Info.plist;
@@ -256,6 +348,7 @@
 		};
 		D566D6D11C7675C7008AA87D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1032B941FD804B765693161 /* Pods-CourseRater.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CourseRater/Info.plist;
@@ -284,6 +377,7 @@
 				D566D6D11C7675C7008AA87D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

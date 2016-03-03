@@ -5,17 +5,24 @@
 //  Created by New on 2/18/16.
 //  Copyright © 2016 CodeMonkey. All rights reserved.
 //
-
+import Parse
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+ var storyboard = UIStoryboard(name: "Main", bundle: nil)
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        Parse.setApplicationId("KSWQDCfiVnKsyT5OD3H8qsAGv8adbFZ683Y6gk9a",
+            clientKey: "OFkgRzwvZar6qVFSFwKPlWNbs6KuYHRD1ZxuYVMZ")
+        if PFUser.currentUser() != nil {
+            let vc = storyboard.instantiateViewControllerWithIdentifier("tab")
+            window?.rootViewController = vc
+            
+        }
         return true
     }
 
